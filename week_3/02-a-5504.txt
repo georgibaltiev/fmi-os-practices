@@ -3,4 +3,4 @@
 
 NB: Тук използвахме ID-то на групата students, за флага -group. За да проверим ID-то: /etc/group
 
-find /tmp -type f -group 512 -perm -g=w,o=w
+find /tmp -type f -group 512 -perm /g=w,o=w
